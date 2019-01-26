@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Creating new list...</title>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <link href="cssforTDL.css" rel="stylesheet" type="text/css"/>
+</head>
+<body id = "creating">
+<h2> Создание нового списка </h2>
+<form name="newlist" method="post" action="createnewlist">
+<p><b>Тема:  </b>
+    <input type ="text" name ="newtheme" placeholder ="Введите тему"></p>
+<p><b>Дэдлайн (в формате yyyy-mm-dd):  </b>
+    <input type ="text" name ="newdeadline" pattern = "[0-9]{4}-[0-9]{2}-[0-9]{2}" placeholder ="Введите дэдлайн"></p>
+<p><b>Содержание списка: </b><Br>
+    <p> </p>
+<textarea name="newbody" cols="40" rows="10"></textarea></p>
+    <p><input type="submit" value="Отправить">
+    <input type="reset" value="Очистить"></p>
+</form>
+</body>
+</html>

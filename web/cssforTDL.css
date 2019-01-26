@@ -1,0 +1,13 @@
+h1, h2{
+     font-weight: bold;
+     color: purple;
+ }
+#header{
+    border-color: purple;
+}
+#editing, #creating, #sendlist, #acceptlist{
+    background-color: pink;
+}
+#reg, #auth, #showlist, #error, #checkreg{
+    background-color: powderblue;
+}
