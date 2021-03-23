@@ -1,3 +1,4 @@
 #  TDL
 
-This project implements a local to-do list site. Tomcat 9.0.0 was used as a ready server.
+This project implements ato-do list site.
+Tomcat 9.0.0 was used as a ready server.
